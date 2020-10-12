@@ -146,7 +146,7 @@ public class PokeBattle extends Application {
 
             final Move[] oppMoves = currentOppPokemon.getMoves();
 
-            final Image oppImage = new Image(new FileInputStream("opp" + currentOppPokemon.getName() + ".jpg"));
+            final Image oppImage = new Image(new FileInputStream("images/opp" + currentOppPokemon.getName() + ".jpg"));
             final ImageView oppImageView = new ImageView(oppImage);
             oppImageView.setFitHeight(300);
             oppImageView.setFitWidth(300);
@@ -224,7 +224,7 @@ public class PokeBattle extends Application {
 
             final Move[] userMoves = currentUserPokemon.getMoves();
 
-            final Image userImage = new Image(new FileInputStream("user" + userPokemonNames[u] + ".jpg"));
+            final Image userImage = new Image(new FileInputStream("images/user" + userPokemonNames[u] + ".jpg"));
             final ImageView userImageView = new ImageView(userImage);
             userImageView.setFitHeight(300);
             userImageView.setFitWidth(300);
@@ -1015,7 +1015,7 @@ public class PokeBattle extends Application {
 
             final ProgressBar bar = new ProgressBar();
 
-            final Image logoImage = new Image(new FileInputStream("pokemon.jpg"));
+            final Image logoImage = new Image(new FileInputStream("images/pokemon.jpg"));
             final ImageView logoImageView = new ImageView(logoImage);
             logoImageView.setFitHeight(350);
             logoImageView.setFitWidth(350);
