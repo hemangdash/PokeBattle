@@ -10,9 +10,9 @@ This is a JavaFX game made by Hemang Dash for CS 1331 (Introduction to Object-Or
 5. There are three difficulties for this game: Easy, Medium and Hard.
 
 ### Installing the Game
-    Compile the game using the following command:
+Compile the game using the following command:
     $ javac --module-path javafx-sdk-11.0.2/lib --add-modules=javafx.controls *.java
-    Play the game using the following command:
+Play the game using the following command:
     $ java --module-path javafx-sdk-11.0.2/lib --add-modules=javafx.controls PokeBattle
 
 ### Playing the Game
