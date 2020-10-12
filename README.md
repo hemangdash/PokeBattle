@@ -28,4 +28,4 @@ Defeat all the Computer's Pokemons.
 ### How to Lose
 You lose if all your Pokemons faint or you decide to run.
 
-Good Luck with Pacman Redux!
+Good Luck with PokeBattle!
